@@ -24,7 +24,7 @@ fs.readFile("./contact.txt","utf-8",(err,result)=>{
 
 console.log(2);
 
-//Async non blocking allows others to complete its task
+//Async non blocking allows others to complete its task then this is executed
 //Output
 // 1
 // 2
